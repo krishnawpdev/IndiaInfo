@@ -1,0 +1,55 @@
+.content, .innr-cont {
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    max-width: 1170px;
+    width: 100%;
+}
+.page {
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+}
+@media (max-width: 1023px){
+    #inner .page-title {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 639px){
+    .page-title {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1023px){
+    .page-title {
+        width: 30%;
+        margin-right: 20px;
+    }
+    .page-title {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .left {
+        float: left;
+    }
+    .left {
+        float: left;
+        position: relative;
+    }
+}

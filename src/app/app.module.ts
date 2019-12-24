@@ -8,6 +8,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProfileComponent } from './profile/profile.component';
 import { MaterialModule } from '../app/material.module';
 import {FlexLayoutModule} from '@angular/flex-layout';
 
@@ -23,7 +24,8 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     PageNotFoundComponent,
     HeaderComponent,
     FooterComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
