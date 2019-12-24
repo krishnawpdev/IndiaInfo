@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+import { AppService } from '../app/services/app.services';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 
@@ -15,6 +16,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { FooterComponent} from './footer/footer.component'
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NewsComponent } from './news/news.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,16 +28,18 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     HeaderComponent,
     FooterComponent,
     SidenavListComponent,
-    ProfileComponent
+    ProfileComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
