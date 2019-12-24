@@ -18,6 +18,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NewsComponent } from './news/news.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DialogSpinner } from './custom/DialogSpinnerComponent';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     SidenavListComponent,
     ProfileComponent,
-    NewsComponent
+    NewsComponent,
+    DialogSpinner
   ],
   imports: [
     BrowserModule,
@@ -40,6 +42,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule
   ],
   providers: [AppService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DialogSpinner]
 })
 export class AppModule { }
