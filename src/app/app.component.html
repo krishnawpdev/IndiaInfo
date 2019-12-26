@@ -8,7 +8,7 @@
   </mat-sidenav>
 
   <div class="page-wrap">
-    <header role="banner">
+    <header role="banner" class="fixedHeader">
       <mat-toolbar color="primary">
         <button type="button" mat-icon-button (click)="sidenav.open()" title="Open sidenav">
           <mat-icon>menu</mat-icon>
@@ -16,7 +16,7 @@
       My India
       </mat-toolbar>
     </header>
-    <main class="content">
+    <main class="content container">
       <router-outlet></router-outlet>
     </main>
     <footer>

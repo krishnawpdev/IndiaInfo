@@ -1,3 +1,20 @@
 .mat-drawer-container{
     background-color: none;
 }
+
+.fixedHeader {
+    position: fixed;
+    overflow: hidden;
+    width: 1200px;
+    height: 80px;
+    z-index: 10;
+}
+
+.container {
+    margin-top: 15% !important;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+}
