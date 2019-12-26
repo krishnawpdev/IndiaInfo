@@ -7,7 +7,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow: s
     display:block;
     width:100%;
     height:100%;
-    background: url("../../IndiaInfo/src/assets/bg-image2.jpg") no-repeat center center fixed;
+    xbackground: url("../../IndiaInfo/src/assets/bg-image2.jpg") no-repeat center center fixed;
     z-index: 999;
   }
+
+  mat-spinner,mat-spinner svg{
+      width: 50px !important;
+      height: 70px !important;
+  }
+
+  .mat-drawer-container {
+    background-color: rgb(255,255,255,.1) !important;
+    color: rgba(0,0,0,.87);
+}
 

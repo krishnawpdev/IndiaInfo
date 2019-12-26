@@ -1,3 +1,26 @@
-<app-header></app-header>
+<mat-sidenav-container class="all-wrap" fullscreen>
+  <mat-sidenav #sidenav>
+    <mat-list>
+      <mat-list-item [routerLink]="['/home']" style="width: 250px"> Home </mat-list-item>
+      <mat-list-item [routerLink]="['/profile']"> Profile </mat-list-item>
+      <mat-list-item [routerLink]="['/news']"> News </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
 
-    <router-outlet></router-outlet>
+  <div class="page-wrap">
+    <header role="banner">
+      <mat-toolbar color="primary">
+        <button type="button" mat-icon-button (click)="sidenav.open()" title="Open sidenav">
+          <mat-icon>menu</mat-icon>
+        </button>
+      My India
+      </mat-toolbar>
+    </header>
+    <main class="content">
+      <router-outlet></router-outlet>
+    </main>
+    <footer>
+      Your sticky footer with a variable height.
+    </footer>
+  </div>
+</mat-sidenav-container>
