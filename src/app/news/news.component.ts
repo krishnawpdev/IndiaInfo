@@ -20,11 +20,11 @@ export class NewsComponent implements OnInit, OnDestroy {
 
   lstNews: newsList[];
 
-  private subscrption: Subscription;
+  private _newsSubscrption: Subscription;
   ngOnInit() {
     this.dialog = this.matDialog.open(DialogSpinner, { id: 'DialogSpinnerComponent', disableClose: true });
 
-    var response = this._appService.getNews().subscribe(data => { 
+    this._newsSubscrption = this._appService.getNews().subscribe(data => { 
       this.lstNews = data.articles;
       this.dialog.close();
 
@@ -33,7 +33,7 @@ export class NewsComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.subscrption.unsubscribe();
+    this._newsSubscrption.unsubscribe();
   }
   redirectToBrowser(url) {
     console.log(url)
