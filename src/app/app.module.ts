@@ -19,6 +19,8 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
 import { NewsComponent } from './news/news.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DialogSpinner } from './custom/DialogSpinnerComponent';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { DialogSpinner } from './custom/DialogSpinnerComponent';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [AppService],
   bootstrap: [AppComponent],

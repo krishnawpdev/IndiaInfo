@@ -7,8 +7,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow: s
     display:block;
     width:100%;
     height:100%;
-    xbackground: url("../../IndiaInfo/src/assets/bg-image2.jpg") no-repeat center center fixed;
+    xbackground: url("../../IndiaInfo/src/assets/bg-image3.jpg") no-repeat center center fixed;
     z-index: 999;
+    background-size: cover;
   }
 
   mat-spinner,mat-spinner svg{
@@ -21,3 +22,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; overflow: s
     color: rgba(0,0,0,.87);
 }
 
+.mat-card-title {
+    display: inline-block !important; }

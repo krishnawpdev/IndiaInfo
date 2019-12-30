@@ -1,0 +1,116 @@
+{
+  "configVersion": 1,
+  "timestamp": 1577441422877,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.0747315a0e4d8d0db647.js",
+        "/main-es5.0747315a0e4d8d0db647.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
+        "/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/styles.50c18b75adad0eb82e79.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/bg-image1.jpg",
+        "/assets/bg-image2.jpg",
+        "/assets/bg-image3.jpg",
+        "/assets/bg-india1.webp",
+        "/assets/emblem_india.png",
+        "/assets/emoji.png",
+        "/assets/home-banner1.jpg",
+        "/assets/home-banner2.jpg",
+        "/assets/home-banner3.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img-gen-info.png",
+        "/assets/img-prof.png",
+        "/assets/img-states.png",
+        "/assets/know_india.png",
+        "/assets/news_icon.png",
+        "/assets/news_icon1.png",
+        "/assets/newsicon.png",
+        "/assets/weather_icon.png",
+        "/bg-image3.9eaf382e55b508c42ab9.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/bg-image1.jpg": "126bb46d90d5978f929b219e68ab11d1c165b15a",
+    "/assets/bg-image2.jpg": "677c04849b682ede918571c63aae76dda623cb04",
+    "/assets/bg-image3.jpg": "8d335e4b07dcbd09c3ec330297415600c534df36",
+    "/assets/bg-india1.webp": "a172608f175472c5dab8e17e973a67bdd588fb77",
+    "/assets/emblem_india.png": "bc1a453c91ad8017441142ba10c41ba661ddfc5e",
+    "/assets/emoji.png": "eeff5b4bfce1894c05854b316c5794d32007c512",
+    "/assets/home-banner1.jpg": "c8550fd6fbbe6253b43b7ff494e90f1d1f6b5c87",
+    "/assets/home-banner2.jpg": "e0689afe527bc27f4799bea5c489b9116c57c68b",
+    "/assets/home-banner3.jpg": "819fc7694804270c92b5f631060993a218ea8eec",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img-gen-info.png": "3a28a3f9626b1e8954d968220325d368fee01ea3",
+    "/assets/img-prof.png": "926aa1fd2acfc67890c8f609956e447cb8ea14ce",
+    "/assets/img-states.png": "4f71666742145b85916886f2dfd4a82628150161",
+    "/assets/know_india.png": "b4b6d37f1ed2d53ab9e5914f71f71ef8980f67b2",
+    "/assets/news_icon.png": "a98f0d503ab27c16e7b26c089f893f56736dee9d",
+    "/assets/news_icon1.png": "dfe1819b8d63e4d7341055c746c02e4a425be9dc",
+    "/assets/newsicon.png": "6cf6dabdf3d1c3aec2b6d6cede687e2c8b031749",
+    "/assets/weather_icon.png": "fd4d477165fba0da6c83a8fabe351193eef47c90",
+    "/bg-image3.9eaf382e55b508c42ab9.jpg": "8d335e4b07dcbd09c3ec330297415600c534df36",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "b9e70c50dfe4fd6a1004093c16029c56b88228bd",
+    "/main-es2015.0747315a0e4d8d0db647.js": "720da62b0d164cc45fe1a334206e559d3bdda228",
+    "/main-es5.0747315a0e4d8d0db647.js": "35848eaa0034f39d584bab3d98196d243d1fd461",
+    "/manifest.webmanifest": "139d478b9750f58ef877e78304a043477c709cc2",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
+    "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.50c18b75adad0eb82e79.css": "4e6176253835cd62e777c4b85f314f1767f7aedc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
