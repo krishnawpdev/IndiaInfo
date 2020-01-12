@@ -15,7 +15,6 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 
 import { FooterComponent} from './footer/footer.component'
 import { HeaderComponent } from './navigation/header/header.component';
-import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NewsComponent } from './news/news.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DialogSpinner } from './custom/DialogSpinnerComponent';
@@ -30,7 +29,6 @@ import { environment } from '../environments/environment';
     PageNotFoundComponent,
     HeaderComponent,
     FooterComponent,
-    SidenavListComponent,
     ProfileComponent,
     NewsComponent,
     DialogSpinner

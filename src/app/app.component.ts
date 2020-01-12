@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation,Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +8,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularMaterialApp';
+  @Output() sidenavClose = new EventEmitter();
+
+  public onSidenavClose = () => {
+    console.log("close funtions")
+    this.sidenavClose.emit();
+  }
+
 }
