@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation,Output,EventEmitter } from '@angular/core';
+import { MatSidenav } from '@angular/material';
 
 @Component({
   selector: 'app-root',
@@ -8,11 +9,11 @@ import { Component, ViewEncapsulation,Output,EventEmitter } from '@angular/core'
 })
 export class AppComponent {
   title = 'AngularMaterialApp';
-  @Output() sidenavClose = new EventEmitter();
+  drawer: MatSidenav;
 
   public onSidenavClose = () => {
-    console.log("close funtions")
-    this.sidenavClose.emit();
+    this.drawer.close();
   }
+  
 
 }

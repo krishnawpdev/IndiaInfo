@@ -10,20 +10,16 @@
       <a mat-list-item routerLink='/news' (click)="onSidenavClose()">
         <mat-icon>assignment</mat-icon> <span class="nav-caption" style="width: 250px">News</span>
       </a>
-      <mat-list-item [matMenuTriggerFor]="menu">
-        <mat-icon>unfold_more</mat-icon>
-        <a matline>Example</a>
-      </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>
 
   <div class="page-wrap">
     <header role="banner" class="fixedHeader">
-      <mat-toolbar color="primary">
+      <mat-toolbar color="primary" center>
         <button type="button" mat-icon-button (click)="sidenav.open()" title="Open sidenav">
           <mat-icon>menu</mat-icon>
         </button>
-      My India
+      <span style="text-align: center;width: 100%">My India</span>
       </mat-toolbar>
     </header>
     <main class="content container">
