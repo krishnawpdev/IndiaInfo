@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppService } from '../app/services/app.services';
@@ -20,6 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { DialogSpinner } from './custom/DialogSpinnerComponent';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { MyindiaComponent } from './myindia/myindia.component';
+import { MustMatchDirective } from './_helpers/must-match.directive';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,9 @@ import { environment } from '../environments/environment';
     FooterComponent,
     ProfileComponent,
     NewsComponent,
-    DialogSpinner
+    DialogSpinner,
+    MyindiaComponent,
+    MustMatchDirective
   ],
   imports: [
     BrowserModule,
@@ -40,6 +45,7 @@ import { environment } from '../environments/environment';
     MaterialModule,
     FlexLayoutModule,
     HttpClientModule,
+    FormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [AppService],
