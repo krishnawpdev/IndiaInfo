@@ -17,12 +17,13 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { FooterComponent} from './footer/footer.component'
 import { HeaderComponent } from './navigation/header/header.component';
 import { NewsComponent } from './news/news.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule ,HTTP_INTERCEPTORS} from '@angular/common/http';
 import { DialogSpinner } from './custom/DialogSpinnerComponent';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MyindiaComponent } from './myindia/myindia.component';
 import { MustMatchDirective } from './_helpers/must-match.directive';
+import { HttpRequestInterceptor } from './services/HttpRequestInterceptor';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { MustMatchDirective } from './_helpers/must-match.directive';
     FormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [AppService],
+  providers: [AppService,{provide: HTTP_INTERCEPTORS,useClass:HttpRequestInterceptor,multi:true}],
   bootstrap: [AppComponent],
   entryComponents: [DialogSpinner]
 })

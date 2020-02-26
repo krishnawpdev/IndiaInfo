@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,OnDestroy } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 
 @Component({
@@ -17,4 +17,7 @@ export class ProfileComponent implements OnInit {
   ngOnInit() {
   }
 
+  ngOnDestory() {
+    console.log("OnDestory called : Profile Comepoent")
+  }
 }
