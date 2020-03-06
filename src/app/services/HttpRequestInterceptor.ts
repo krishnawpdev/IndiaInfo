@@ -5,9 +5,14 @@ import { Observable } from "rxjs";
 
 @Injectable()
 export class HttpRequestInterceptor implements HttpInterceptor {
-    intercept(req: HttpRequest<any>, next: HttpHandler): 
+    intercept(req: HttpRequest<any>, next: HttpHandler):
         Observable<HttpEvent<any>>{
-        console.log("Interceptor called")
-        return next.handle(req);
-    }    
+        console.log("Interceptor called");
+        console.log(req);
+        const authtoken = "sampletoken"
+        const authReq = req.clone({
+            setHeaders: {Authorization:authtoken}
+        })
+        return next.handle(authReq);
+    }
 }
