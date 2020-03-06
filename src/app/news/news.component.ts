@@ -36,7 +36,6 @@ export class NewsComponent implements OnInit, OnDestroy {
     this._newsSubscrption.unsubscribe();
     this.lstNews = null;
     console.log("News data" + this.lstNews);
-    alert("ondes")
   }
   redirectToBrowser(url) {
     console.log(url)
