@@ -16,7 +16,13 @@ export class NewsComponent implements OnInit, OnDestroy {
 
   private dialog: MatDialogRef<DialogSpinner>;
 
-  constructor(private _appService: AppService,private matDialog: MatDialog) { }
+  constructor(private _appService: AppService,private matDialog: MatDialog) {
+
+    let numbers = [1,4,1,4,5,6];
+    console.log(Array.from(new Set(numbers))); // returns as array
+    console.log("Numbers : " + [...new Set(numbers)]); // returns as a string
+    
+   }
 
   lstNews: newsList[];
 

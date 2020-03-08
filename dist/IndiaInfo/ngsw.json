@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1578982153728,
+  "timestamp": 1583062306898,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.4baa72d5091e0833726d.js",
-        "/main-es5.4baa72d5091e0833726d.js",
+        "/main-es2015.47ed14ede0e67d8487c6.js",
+        "/main-es5.47ed14ede0e67d8487c6.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
@@ -85,9 +85,9 @@
     "/assets/weather_icon.png": "fd4d477165fba0da6c83a8fabe351193eef47c90",
     "/bg-image3.9eaf382e55b508c42ab9.jpg": "8d335e4b07dcbd09c3ec330297415600c534df36",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "f995c3b9dd07e45316ca45d62a9830c0b737e42a",
-    "/main-es2015.4baa72d5091e0833726d.js": "ed044961a9a2bd47b46bc2c65fcef2b4fc31eace",
-    "/main-es5.4baa72d5091e0833726d.js": "e00e35c711b22e2ba722bd725865eb788e432781",
+    "/index.html": "e8d913ec39c2eaed76aa049877ae4768cb6e914a",
+    "/main-es2015.47ed14ede0e67d8487c6.js": "c305bc93ad2b853325c65c74a72ce515ce38d3db",
+    "/main-es5.47ed14ede0e67d8487c6.js": "37459347cbf22b98235199d4d0accc5e08ded47e",
     "/manifest.webmanifest": "b75d024ba064e2a8ac43f30ff7189c4e944150b0",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
